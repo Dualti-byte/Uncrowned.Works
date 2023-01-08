@@ -1,0 +1,67 @@
+:root {
+  --space: 1rem;
+  --primary_color: #ffffff;
+  --secondary_color: #212121;
+}
+
+* {
+  list-style-type: none;
+  overflow-x: hidden;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header nav {
+  padding-top: var(--space);
+  padding-bottom: var(--space);
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+header nav ul li a {
+  color: var(--secondary_color);
+}
+
+
+
+
+main section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+main #home {
+ background-image: rgb(0, 0, 0);
+}
+
+main #about {
+  background-image: rgb(0, 0, 0);
+}
+
+main #contact {
+  background-image: rgb(0, 0, 0);
+}
+
+footer .top {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  margin-right: var(--space);
+  margin-bottom: var(--space);
+}
+
+
+
